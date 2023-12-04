@@ -1,3 +1,4 @@
+import { ExperiencesComponent } from './sections/experiences/experiences.component';
 import { CommonModule } from '@angular/common';
 import { Component, afterNextRender } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
@@ -17,7 +18,8 @@ import { SkillsComponent } from './sections/skills/skills.component';
     HeroComponent,
     AboutMeComponent,
     MyServicesComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperiencesComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
