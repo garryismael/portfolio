@@ -30,9 +30,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/aos/dist/aos.css",
+              "assets/css/swiper-bundle.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "assets/js/swiper-bundle.min.js",
+              "assets/js/main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

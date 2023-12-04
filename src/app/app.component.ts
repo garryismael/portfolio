@@ -16,6 +16,7 @@ export class AppComponent {
   constructor() {
     afterNextRender(() => {
       AOS.init();
+      console.log('Helo, WOrld');
     });
   }
 
