@@ -1,1 +1,70 @@
-<p>about-me works!</p>
+<section class="padding">
+  <h1 class="title">About Me</h1>
+  <div class="flex items-center justify-between margin-t">
+    <div class="hidden lg:block">
+      <img
+        ngSrc="assets/images/about-me.png"
+        alt="profile photo"
+        width="510"
+        height="489"
+      />
+    </div>
+    <div class="flex flex-col text-base text-justify">
+      <p class="mb-3">
+        Hello, my name is TAHINJANAHARY Josimar Garry Ismaël. I am a full-stack
+        developer and interested in web development and conception of
+        application.
+      </p>
+      <p>
+        I graduated from ENI, the National School of Computer Science in
+        Madagascar, and obtained a degree in computer science engineering. Since
+        my childhood, I have been passionate about technology. I enjoy
+        challenges, am a fast learner, and can adapt quickly to any situation.
+      </p>
+      <div class="socials flex items-center gap-4">
+        <p class="text-sm">Follow me</p>
+        <div class="flex items-center gap-3">
+          <a href="">
+            <img
+              ngSrc="assets/images/facebook.png"
+              alt="facebook"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a href="">
+            <img
+              ngSrc="assets/images/instagram.png"
+              alt="instagram"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a href="">
+            <img
+              ngSrc="assets/images/linkedin.png"
+              alt="linkedin"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a href="">
+            <img
+              ngSrc="assets/images/twitter.png"
+              alt="twitter"
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="font-semibold flex flex-col md:flex-row text-center gap-4 mt-6">
+        <a href="#" class="bg-brand-600 btn rounded-full">View Works</a>
+        <a href="#" class="border border-white btn rounded-full">
+          <span class="mr-2">Download CV</span>
+          <fa-icon [icon]="faDownload"></fa-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,1 +1,43 @@
-<p>hero works!</p>
+<section class="padding">
+  <div>
+    <div class="flex items-center">
+      <h1 class="text-sm">Hello Everyone</h1>
+      <img
+        ngSrc="assets/images/wave.png"
+        alt="wave emoji"
+        height="24"
+        width="24"
+        class="w-5 h-5"
+      />
+    </div>
+    <h1 class="text-3xl font-bold text-gradient py-4">
+      I am Garry Ismaël, <br />a full-stack developer
+    </h1>
+    <div class="text-base mb-4">
+      <p class="mb-2">
+        Hi, I’m Garry, a passionate full-stack developer and engineer from
+        Madagascar.
+      </p>
+      <p>My specialization lines into building user-friendly websites.</p>
+    </div>
+
+    <div class="text-base font-semibold flex flex-col text-center gap-4">
+      <a href="#" class="bg-brand-600 btn rounded-full">Hire Me</a>
+      <a href="#" class="border border-white btn rounded-full">
+        <span class="mr-2">Download CV</span>
+        <fa-icon [icon]="faDownload"></fa-icon>
+      </a>
+    </div>
+  </div>
+
+  <div class="relative p-4">
+    <img
+      ngSrc="assets/images/hero.svg"
+      alt="hero"
+      width="382"
+      height="378"
+      class="w-full h-auto"
+      [priority]="true"
+    />
+  </div>
+</section>

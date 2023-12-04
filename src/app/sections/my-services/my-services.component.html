@@ -1,0 +1,24 @@
+<section class="padding">
+  <h1 class="title">My Services</h1>
+  <p class="padding-t">
+    Here are some services that I can offer. Let's collaborate to bring your
+    vision to fruition.
+  </p>
+  <div class="flex flex-col items-center gap-9 mt-6 w-full h-auto lg:flex-row">
+    @for (service of services; track service.title) {
+    <div class="card">
+      <div class="flex items-center gap-6">
+        <div class="icon" [ngClass]="service.color">
+          <fa-icon [icon]="service.icon"></fa-icon>
+        </div>
+        <h1 class="text-xl font-bold">{{ service.title }}</h1>
+      </div>
+      <p class="text-base">{{ service.text }}</p>
+      <a>
+        <span class="mr-2">Contact Me</span>
+        <fa-icon [icon]="faArrowRight"></fa-icon>
+      </a>
+    </div>
+    }
+  </div>
+</section>
