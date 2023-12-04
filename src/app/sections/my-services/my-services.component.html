@@ -9,9 +9,9 @@
     <div class="card">
       <div class="flex items-center gap-6">
         <div class="icon" [ngClass]="service.color">
-          <fa-icon [icon]="service.icon"></fa-icon>
+          <fa-icon class="svg" [icon]="service.icon"></fa-icon>
         </div>
-        <h1 class="text-xl font-bold">{{ service.title }}</h1>
+        <h1 class="text-xl font-bold md:text-2xl">{{ service.title }}</h1>
       </div>
       <p class="text-base">{{ service.text }}</p>
       <a>

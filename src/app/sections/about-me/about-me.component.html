@@ -1,14 +1,14 @@
 <section class="padding">
   <h1 class="title">About Me</h1>
-  <div class="flex items-center justify-between margin-t">
-    <div class="hidden lg:block">
-      <img
-        ngSrc="assets/images/about-me.png"
-        alt="profile photo"
-        width="510"
-        height="489"
-      />
-    </div>
+  <div class="flex items-center justify-between padding-t">
+    <img
+      ngSrc="assets/images/about-me.png"
+      alt="profile photo"
+      width="510"
+      height="489"
+      class="hidden md:inline md:w-1/2 h-full"
+    />
+
     <div class="flex flex-col text-base text-justify">
       <p class="mb-3">
         Hello, my name is TAHINJANAHARY Josimar Garry Ismaël. I am a full-stack
@@ -58,7 +58,9 @@
           </a>
         </div>
       </div>
-      <div class="font-semibold flex flex-col md:flex-row text-center gap-4 mt-6">
+      <div
+        class="font-semibold flex flex-col md:flex-row text-center gap-4 mt-6"
+      >
         <a href="#" class="bg-brand-600 btn rounded-full">View Works</a>
         <a href="#" class="border border-white btn rounded-full">
           <span class="mr-2">Download CV</span>
