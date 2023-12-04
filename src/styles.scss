@@ -4,12 +4,64 @@
 
 @import "@fontsource/inter";
 
-body {
-  font-family: Inter;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-.swiper {
-  width: 600px;
-  height: 100vh;
-  @apply bg-red-600 text-white;
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--electric-violet);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue-25);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--electric-violet);
+}
+
+body {
+  font-family: Inter;
+  @apply bg-slate-950 text-white;
+}
+
+@layer base {
+}
+
+@layer components {
+  .text-gradient {
+    background: linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .padding-x {
+    @apply px-6;
+  }
+
+  .padding-t {
+    @apply pt-8;
+  }
+
+  .wrapper {
+    @apply px-6 pt-8;
+  }
 }
