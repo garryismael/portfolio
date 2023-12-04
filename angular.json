@@ -32,7 +32,8 @@
             "styles": [
               "src/styles.scss",
               "node_modules/aos/dist/aos.css",
-              "src/assets/css/swiper-bundle.min.css"
+              "src/assets/css/swiper-bundle.min.css",
+              "node_modules/@fortawesome/fontawesome-svg-core/styles.css"
             ],
             "scripts": [
               "src/assets/js/swiper-bundle.min.js",
