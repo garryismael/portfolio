@@ -1,4 +1,4 @@
-const swiper = new Swiper(".experiences", {
+const swiper = new Swiper(".swiper", {
   slidesPerView: 1,
   spaceBetween: 8,
   breakpoints: {

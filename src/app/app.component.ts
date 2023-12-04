@@ -8,6 +8,7 @@ import { HeroComponent } from './sections/hero/hero.component';
 import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { MyServicesComponent } from './sections/my-services/my-services.component';
 import { SkillsComponent } from './sections/skills/skills.component';
+import { ProjectsComponent } from './sections/projects/projects.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -19,7 +20,8 @@ import { SkillsComponent } from './sections/skills/skills.component';
     AboutMeComponent,
     MyServicesComponent,
     SkillsComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    ProjectsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
