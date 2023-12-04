@@ -1,1 +1,29 @@
-<p>skills works!</p>
+<section class="padding">
+  <h1 class="title">My Skills</h1>
+  <div class="flex items-center justify-center flex-wrap">
+    @for (skill of skills; track skill.title) {
+    <div class="flex flex-col items-center justify-center">
+      <circle-progress
+        [percent]="85"
+        [maxPercent]="100"
+        [radius]="60"
+        [responsive]="true"
+        [outerStrokeWidth]="20"
+        [innerStrokeWidth]="20"
+        [space]="-20"
+        [outerStrokeColor]="'#7f56d9'"
+        [innerStrokeColor]="'#FFF'"
+        [titleColor]="'#FFF'"
+        [unitsColor]="'#FFF'"
+        [animation]="true"
+        [animationDuration]="300"
+        [showSubtitle]="false"
+        [subtitleFontSize]="'24'"
+        [subtitleFontWeight]="'bold'"
+        [backgroundPadding]="0"
+      ></circle-progress>
+      <p class="text-lg font-bold uppercase text-center">{{ skill.title }}</p>
+    </div>
+    }
+  </div>
+</section>

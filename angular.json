@@ -36,7 +36,8 @@
             ],
             "scripts": [
               "src/assets/js/swiper-bundle.min.js",
-              "src/assets/js/main.js"
+              "src/assets/js/main.js",
+              "src/assets/js/requestAnimationFrame.js"
             ],
             "server": "src/main.server.ts",
             "prerender": true,

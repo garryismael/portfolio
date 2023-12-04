@@ -6,6 +6,7 @@ import { NavigationComponent } from './sections/navigation/navigation.component'
 import { HeroComponent } from './sections/hero/hero.component';
 import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { MyServicesComponent } from './sections/my-services/my-services.component';
+import { SkillsComponent } from './sections/skills/skills.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,7 +16,8 @@ import { MyServicesComponent } from './sections/my-services/my-services.componen
     NavigationComponent,
     HeroComponent,
     AboutMeComponent,
-    MyServicesComponent
+    MyServicesComponent,
+    SkillsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
