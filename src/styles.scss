@@ -94,9 +94,15 @@ body {
   color: transparent;
 }
 
+@layer base {
+  section, header, footer {
+    @apply lg:max-w-screen-2xl lg:mx-auto;
+  }
+}
+
 @layer components {
   .title {
-    @apply text-3xl font-bold md:text-4xl;
+    @apply text-3xl font-bold md:text-4xl lg:text-5xl;
   }
 
   .padding-x {
@@ -108,7 +114,7 @@ body {
   }
 
   .padding {
-    @apply px-6 pt-8 md:px-16 md:pt-16;
+    @apply px-6 pt-8 md:px-16 md:pt-16 lg:pt-28;
   }
 
   .margin-t {

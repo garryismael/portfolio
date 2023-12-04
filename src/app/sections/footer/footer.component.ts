@@ -13,4 +13,6 @@ export class FooterComponent {
   faLocationDot = faLocationDot;
   faPhone = faPhone;
   faEnvelope = faEnvelope;
+
+  year = new Date().getFullYear();
 }

@@ -6,7 +6,7 @@
   .contacts {
     @apply flex flex-col flex-wrap gap-4 overflow-x-hidden mt-4;
     div {
-      @apply flex items-center gap-2 flex-wrap;
+      @apply flex items-center gap-2 flex-wrap lg:flex-nowrap;
     }
   }
 }

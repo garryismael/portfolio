@@ -1,6 +1,6 @@
 <section class="padding">
   <h1 class="title">Featured Projects</h1>
-  <p class="padding-t text-base">
+  <p class="padding-t text-base lg:text-lg">
     I have worked on many projects over the course of being a Web Developer,
     here are a few of my live, real-world projects
   </p>
@@ -16,12 +16,12 @@
           class="w-full h-auto"
         />
         <div class="p-6">
-          <h1 class="text-2xl font-semibold">{{ project.project }}</h1>
+          <h1 class="text-2xl font-semibold lg:text-3xl">{{ project.project }}</h1>
           <div class="flex items-center justify-between my-3">
-            <h2 class="text-lg font-semibold">{{ project.title }}</h2>
+            <h2 class="text-lg font-semibold lg:text-xl">{{ project.title }}</h2>
             <fa-icon [icon]="faUpRightFromSquare"></fa-icon>
           </div>
-          <p class="text-base">
+          <p class="text-base lg:text-lg">
             {{ project.text }}
           </p>
         </div>

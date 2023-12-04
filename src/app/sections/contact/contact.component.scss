@@ -6,6 +6,10 @@
   }
 }
 
+.form {
+  @apply flex-1 basis-full;
+}
+
 .form, .group {
   @apply flex flex-col gap-4;
 }

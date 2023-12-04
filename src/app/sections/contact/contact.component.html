@@ -1,23 +1,23 @@
 <section class="padding">
   <h1 class="title">Get in Touch</h1>
-  <p class="padding-t">Satisfied with me? Please contact me.</p>
-  <div class="mt-6">
-    <div class="hidden lg:flex flex-col">
-      <h1 class="display-xs-bold">Contact Info</h1>
-      <div>
-        <fa-icon [icon]="faLocationDot"></fa-icon>
+  <p class="padding-t lg:text-lg">Satisfied with me? Please contact me.</p>
+  <div class="mt-6 flex">
+    <div class="hidden lg:flex lg:flex-col lg:flex-1 lg:basis-1/2 lg:text-lg">
+      <h1 class="text-3xl font-semibold mb-6">Contact Info</h1>
+      <div class="flex items-center gap-2 mb-4">
+        <fa-icon [icon]="faLocationDot" class="text-2xl"></fa-icon>
         <span class="text-md-regular">Tanambao, Fianarantsoa, Madagascar</span>
       </div>
-      <div>
-        <fa-icon [icon]="faPhone"></fa-icon>
+      <div class="flex items-center gap-2 mb-4">
+        <fa-icon [icon]="faPhone" class="text-2xl"></fa-icon>
         <span class="text-md-regular">+261341089861</span>
       </div>
-      <div>
-        <fa-icon [icon]="faEnvelope"></fa-icon>
+      <div class="flex items-center gap-2 mb-4">
+        <fa-icon [icon]="faEnvelope" class="text-2xl"></fa-icon>
         <span class="text-md-regular">tahinjanaharygarry&#64;gmail.com</span>
       </div>
     </div>
-    <form class="form">
+    <form class="form lg:text-lg">
       <div class="group">
         <div class="form-group">
           <label for="firstName">First Name</label>
@@ -35,20 +35,25 @@
       <div class="group">
         <div class="form-group">
           <label for="email">Email</label>
-          <input
-            id="email"
-            name="email"
-            placeholder="Your email address"
-          />
+          <input id="email" name="email" placeholder="Your email address" />
         </div>
         <div class="form-group">
           <label for="subject">Subject</label>
-          <input id="subject" name="subject" placeholder="The subject of your message" />
+          <input
+            id="subject"
+            name="subject"
+            placeholder="The subject of your message"
+          />
         </div>
       </div>
       <div class="form-group">
         <label for="message" class="text-sm-medium">Message</label>
-        <textarea rows="8" id="message" placeholder="Enter your message" class="text-base"></textarea>
+        <textarea
+          rows="8"
+          id="message"
+          placeholder="Enter your message"
+          class="text-base"
+        ></textarea>
       </div>
       <button class="font-semibold bg-brand-600 btn rounded-full md:w-fit">
         <span class="mr-2">Send Message</span>
